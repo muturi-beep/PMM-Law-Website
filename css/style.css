@@ -5,7 +5,7 @@ body {
     color: #666666;
     background: #ffffff;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 h1,
@@ -16,19 +16,19 @@ h5,
 h6 {
     font-family: sans-serif;
     font-weight: 600;
-    font-style: italic;
+    font-style: normal;
     color: #121518;
 }
 
 a {
-    color: #ffc107;
+    color: #FFC107;
     transition: .3s;
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: #ffc107;
+    color: #FFC107;
     outline: none;
     text-decoration: none;
 }
@@ -48,7 +48,7 @@ a:focus {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #ffc107;
+    background: #FFC107;
     color: #121518;
     width: 44px;
     height: 44px;
@@ -62,8 +62,8 @@ a:focus {
 }
 
 .back-to-top:hover {
-    color: #ffc107;
-    background: #121518;
+    color: #FFC107;
+    background: #151853;
 }
 
 .back-to-top i {
@@ -77,7 +77,7 @@ a:focus {
 .top-bar {
     position: relative;
     height: 90px;
-    background: #000350;
+    background: #121518;
 }
 
 .top-bar .logo {
@@ -88,7 +88,7 @@ a:focus {
 
 .top-bar .logo h1 {
     margin: 0;
-    color: #ffc107;
+    color: #FFC107;
     font-size: 75px;
     line-height: 55px;
     font-weight: 800;
@@ -117,7 +117,7 @@ a:focus {
 }
 
 .top-bar .text h2 {
-    color: #ffd900;
+    color: #FFC107;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -145,7 +145,7 @@ a:focus {
     width: 60px;
     height: 100%;
     font-size: 22px;
-    color: #ffc107;
+    color: #FFC107;
     border-right: 1px solid rgba(255, 255, 255, .15);
 }
 
@@ -154,7 +154,7 @@ a:focus {
 }
 
 .top-bar .social a:hover {
-    color: #ffc107;
+    color: #FFC107;
     background: #ffffff;
 }
 
@@ -208,7 +208,7 @@ a:focus {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #ffc107;
+    color: #FFC107;
     transition: none;
 }
 
@@ -221,12 +221,12 @@ a:focus {
 
 .nav-bar .btn {
     color: #ffffff;
-    border: 2px solid #ffc107;
+    border: 2px solid #FFC107;
     border-radius: 0;
 }
 
 .nav-bar .btn:hover {
-    background: #050857;
+    background: #151853;
 }
 
 @media (min-width: 992px) {
@@ -341,16 +341,16 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #ffc107;
-    background: #050857;
-    border: 2px solid #ffc107;
+    color: #FFC107;
+    background: #151853;
+    border: 2px solid #FFC107;
     border-radius: 0;
     transition: .3s;
 }
 
 .carousel .carousel-caption .btn:hover {
     color: #121518;
-    background: #ffc107;
+    background: #FFC107;
 }
 
 @media (max-width: 767.98px) {
@@ -403,12 +403,12 @@ a:focus {
     margin-bottom: 45px;
     padding: 90px 0;
     text-align: center;
-    background: #ffc107;
+    background: #FFC107;
 }
 
 .page-header h2 {
     position: relative;
-    color: #050857;
+    color: #151853;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -433,7 +433,7 @@ a:focus {
 }
 
 .page-header a:hover {
-    color: #050857;
+    color: #151853;
 }
 
 .page-header a::after {
@@ -489,8 +489,8 @@ a:focus {
     left: 0;
     top: 21px;
     background: transparent;
-    border-top: 1px solid #ffc107;
-    border-bottom: 1px solid #ffc107;
+    border-top: 1px solid #FFC107;
+    border-bottom: 1px solid #FFC107;
     z-index: -1;
 }
 
@@ -502,8 +502,8 @@ a:focus {
     left: 0;
     bottom: 20px;
     background: transparent;
-    border-top: 1px solid #ffc107;
-    border-bottom: 1px solid #ffc107;
+    border-top: 1px solid #FFC107;
+    border-bottom: 1px solid #FFC107;
     z-index: -1;
 }
 
@@ -518,7 +518,7 @@ a:focus {
 /*******************************/
 .feature-top {
     position: relative;
-    background: #050857;
+    background: #151853;
     margin-bottom: 45px;
 }
 
@@ -564,7 +564,7 @@ a:focus {
 }
 
 .feature-top .feature-item i {
-    color: #ffc107;
+    color: #FFC107;
     font-size: 35px;
     margin-bottom: 10px;
 }
@@ -620,16 +620,16 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #ffc107;
-    border: 2px solid #ffc107;
+    color: #FFC107;
+    border: 2px solid #FFC107;
     border-radius: 0;
-    background: #050857;
+    background: #151853;
     transition: .3s;
 }
 
 .about .about-text a.btn:hover {
     color: #121518;
-    background: #ffc107;
+    background: #FFC107;
 }
 
 @media (max-width: 767.98px) {
@@ -653,7 +653,7 @@ a:focus {
     position: relative;
     width: 100%;
     text-align: center;
-    background: #050857;
+    background: #151853;
     margin-bottom: 30px;
 }
 
@@ -663,7 +663,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #050857;
+    background: #151853;
 }
 
 .service .service-icon i {
@@ -672,8 +672,8 @@ a:focus {
     padding: 20px 0;
     text-align: center;
     font-size: 60px;
-    color: #ffc107;
-    background: #050857;
+    color: #FFC107;
+    background: #151853;
     transition: .5s;
 }
 
@@ -686,7 +686,7 @@ a:focus {
     padding: 25px 15px 15px 15px;
     font-size: 30px;
     font-weight: 600;
-    color: #ffc107;
+    color: #FFC107;
 }
 
 .service .service-item p {
@@ -704,8 +704,8 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #ffc107;
-    border: 2px solid #ffc107;
+    color: #FFC107;
+    border: 2px solid #FFC107;
     border-radius: 0;
     background: #121518;
     transition: .3s;
@@ -713,7 +713,7 @@ a:focus {
 
 .service .service-item:hover a.btn {
     color: #121518;
-    background: #ffc107;
+    background: #FFC107;
 }
 
 
@@ -736,7 +736,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #050857;
+    background: #151853;
 }
 
 .feature .feature-icon i {
@@ -745,8 +745,8 @@ a:focus {
     padding: 20px 0;
     text-align: center;
     font-size: 60px;
-    color: #ffc107;
-    background: #050857;
+    color: #FFC107;
+    background: #151853;
     transition: .5s;
 }
 
@@ -769,7 +769,7 @@ a:focus {
     height: 2px;
     left: 0;
     bottom: 0;
-    background: #ffc107;
+    background: #FFC107;
 }
 
 .feature .feature-item p {
@@ -816,13 +816,13 @@ a:focus {
     position: relative;
     padding: 50px 15px 30px 15px;
     text-align: center;
-    background: #050857;
+    background: #151853;
 }
 
 .team .team-text h2 {
     font-size: 22px;
     font-weight: 600;
-    color: #ffc107;
+    color: #FFC107;
 }
 
 .team .team-text p {
@@ -839,7 +839,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #ffc107;
+    background: #FFC107;
     font-size: 0;
     transition: .5s;
 }
@@ -854,7 +854,7 @@ a:focus {
     margin-right: 15px;
     font-size: 18px;
     text-align: center;
-    color: #050857;
+    color: #151853;
     transition: .3s;
 }
 
@@ -901,13 +901,13 @@ a:focus {
     padding-top: 15px;
     border: none;
     border-radius: 0;
-    border-top: 1px solid #ffc107;
+    border-top: 1px solid #FFC107;
 }
 
 .faqs .card:last-child {
     margin-bottom: 0;
     padding-bottom: 15px;
-    border-bottom: 1px solid #ffc107;
+    border-bottom: 1px solid #FFC107;
 }
 
 .faqs .card-header {
@@ -930,8 +930,8 @@ a:focus {
     height: 40px;
     margin-right: 10px;
     text-align: center;
-    background: #050857;
-    color: #ffc107;
+    background: #151853;
+    color: #FFC107;
     font-weight: 700;
 }
 
@@ -970,16 +970,16 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #ffc107;
-    border: 2px solid #ffc107;
+    color: #FFC107;
+    border: 2px solid #FFC107;
     border-radius: 0;
-    background: #050857;
+    background: #151853;
     transition: .3s;
 }
 
 .faqs a.btn:hover {
     color: #121518;
-    background: #ffc107;
+    background: #FFC107;
 }
 
 
@@ -1025,7 +1025,7 @@ a:focus {
 }
 
 .testimonial .testimonial-item h2 {
-    color: #ffc107;
+    color: #FFC107;
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -1049,7 +1049,7 @@ a:focus {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #ffc107;
+    background: #FFC107;
 }
 
 .testimonial .owl-dot.active {
@@ -1124,7 +1124,7 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #ffc107;
+    color: #FFC107;
     transition: .3s;
 }
 
@@ -1148,7 +1148,7 @@ a:focus {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #ffc107;
+    background: #FFC107;
 }
 
 .blog .owl-dot.active {
@@ -1158,13 +1158,13 @@ a:focus {
 .blog .pagination .page-link {
     color: #121518;
     border-radius: 0;
-    border-color: #ffc107;
+    border-color: #FFC107;
 }
 
 .blog .pagination .page-link:hover,
 .blog .pagination .page-item.active .page-link {
     color: #121518;
-    background: #ffc107;
+    background: #FFC107;
 }
 
 .blog .pagination .disabled .page-link {
@@ -1208,7 +1208,7 @@ a:focus {
     position: absolute;
     width: 15px;
     height: 5px;
-    background: #ffc107;
+    background: #FFC107;
     z-index: 1;
 }
 
@@ -1227,7 +1227,7 @@ a:focus {
     position: absolute;
     width: 15px;
     height: 5px;
-    background: #ffc107;
+    background: #FFC107;
     z-index: 1;
 }
 
@@ -1248,20 +1248,20 @@ a:focus {
 
 .timeline .timeline-container .timeline-content {
     padding: 30px;
-    background: #050857;
+    background: #151853;
     position: relative;
-    border-right: 5px solid #ffc107;
+    border-right: 5px solid #FFC107;
 }
 
 .timeline .timeline-container.right .timeline-content {
-    border-left: 5px solid #ffc107;
+    border-left: 5px solid #FFC107;
 }
 
 .timeline .timeline-container .timeline-content h2 {
     margin-bottom: 15px;
     font-size: 22px;
     font-weight: 600;
-    color: #ffc107;
+    color: #FFC107;
 }
 
 .timeline .timeline-container .timeline-content h2 span {
@@ -1269,7 +1269,7 @@ a:focus {
     margin-right: 15px;
     padding: 5px 10px;
     color: #121518;
-    background: #ffc107;
+    background: #FFC107;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
@@ -1308,7 +1308,7 @@ a:focus {
     
     .timeline .timeline-container.left .timeline-content,
     .timeline .timeline-container.right .timeline-content {
-        border-left: 5px solid #ffc107;
+        border-left: 5px solid #FFC107;
         border-right: none;
     }
 }
@@ -1337,19 +1337,19 @@ a:focus {
     display: inline-block;
     margin: 5px;
     padding: 8px 15px;
-    color: #ffc107;
+    color: #FFC107;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
     border-radius: 0;
-    background: #050857;
-    border: 2px solid #ffc107;
+    background: #151853;
+    border: 2px solid #FFC107;
     transition: .3s;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-    background: #ffc107;
+    background: #FFC107;
     color: #121518;
 }
 
@@ -1365,7 +1365,7 @@ a:focus {
 
 .portfolio .load-more .btn:hover {
     color: #121518;
-    background: #ffc107;
+    background: #FFC107;
 }
 
 .portfolio .portfolio-item {
@@ -1458,7 +1458,7 @@ a:focus {
     margin-bottom: 30px;
     width: 100%;
     padding: 30px;
-    background: #050857;
+    background: #151853;
 }
 
 .contact .contact-item {
@@ -1468,7 +1468,7 @@ a:focus {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
-    border: 2px solid #ffc107;
+    border: 2px solid #FFC107;
 }
 
 .contact .contact-item i {
@@ -1479,8 +1479,8 @@ a:focus {
     align-items: center;
     justify-content: center;
     font-size: 30px;
-    color: #ffc107;
-    border: 2px solid #ffc107;
+    color: #FFC107;
+    border: 2px solid #FFC107;
 }
 
 .contact .contact-text {
@@ -1490,7 +1490,7 @@ a:focus {
 }
 
 .contact .contact-text h2 {
-    color: #ffc107;
+    color: #FFC107;
     font-size: 25px;
     font-weight: 600;
 }
@@ -1530,16 +1530,16 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #ffc107;
-    background: #050857;
-    border: 2px solid #ffc107;
+    color: #FFC107;
+    background: #151853;
+    border: 2px solid #FFC107;
     border-radius: 0;
     transition: .3s;
 }
 
 .contact .contact-form .btn:hover {
     color: #121518;
-    background: #ffc107;
+    background: #FFC107;
 }
 
 
@@ -1591,7 +1591,7 @@ a:focus {
     max-width: 900px;
     margin: 45px auto -140px auto;
     padding: 30px 15px;
-    background: #ffc107;
+    background: #FFC107;
     z-index: 1;
 }
 
@@ -1625,16 +1625,16 @@ a:focus {
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
-    color: #ffc107;
-    background: #050857;
+    color: #FFC107;
+    background: #151853;
     border-radius: 0;
-    border: 2px solid #ffc107;
+    border: 2px solid #FFC107;
     transition: .3s;
 }
 
 .newsletter .btn:hover {
-    color: #050857;
-    background: #ffc107;
+    color: #151853;
+    background: #FFC107;
 }
 
 
@@ -1645,7 +1645,7 @@ a:focus {
     position: relative;
     margin-top: 45px;
     padding-top: 180px;
-    background: #050857;
+    background: #151853;
     color: #ffffff;
 }
 
@@ -1664,7 +1664,7 @@ a:focus {
     margin-bottom: 30px;
     font-size: 25px;
     font-weight: 600;
-    color: #ffc107;
+    color: #FFC107;
 }
 
 .footer .footer-link a {
@@ -1683,7 +1683,7 @@ a:focus {
 }
 
 .footer .footer-link a:hover {
-    color: #ffc107;
+    color: #FFC107;
     letter-spacing: 1px;
 }
 
@@ -1703,7 +1703,7 @@ a:focus {
 .footer .footer-social a i {
     margin-right: 15px;
     font-size: 18px;
-    color: #ffc107;
+    color: #FFC107;
 }
 
 .footer .footer-social a:last-child i {
@@ -1717,7 +1717,7 @@ a:focus {
 .footer .footer-menu .f-menu {
     position: relative;
     padding: 15px 0;
-    background: #ffc107;
+    background: #FFC107;
     font-size: 0;
     text-align: center;
 }
@@ -1731,7 +1731,7 @@ a:focus {
 }
 
 .footer .footer-menu .f-menu a:hover {
-    color: #050857;
+    color: #151853;
 }
 
 .footer .footer-menu .f-menu a:last-child {
@@ -1755,7 +1755,7 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #ffc107;
+    color: #FFC107;
     font-weight: 500;
     letter-spacing: 1px;
 }
